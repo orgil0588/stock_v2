@@ -9,12 +9,27 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "apexcharts": "^3.35.0",
+    "igniteui-react-charts": "^16.15.1",
+    "igniteui-react-core": "^16.15.1",
+    "igniteui-react-excel": "^16.15.1",
+    "igniteui-react-gauges": "^16.15.1",
+    "igniteui-react-grids": "^16.15.1",
+    "igniteui-react-maps": "^16.15.1",
+    "igniteui-react-spreadsheet": "^16.15.1",
+    "lightweight-charts": "^3.8.0",
+    "lodash": "^4.17.21",
     "next": "12.1.2",
     "react": "17.0.2",
+    "react-apexcharts": "^1.4.0",
     "react-dom": "17.0.2"
   },
   "devDependencies": {
+    "autoprefixer": "^10.4.4",
     "eslint": "8.12.0",
-    "eslint-config-next": "12.1.2"
+    "eslint-config-next": "12.1.2",
+    "postcss": "^8.4.12",
+    "tailwindcss": "^3.0.23",
+    "typescript": "^4.6.3"
   }
 }
