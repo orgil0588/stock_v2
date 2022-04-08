@@ -9,7 +9,7 @@ const StockDetail = ({ data }) => {
 };
 
 export async function getServerSideProps() {
-  const res = await fetch(`http://68.183.176.100/api/v1/stock-info/`);
+  const res = await fetch(`http://68.183.176.100:8000/api/v1/stock-info/`);
   const data = await res.json();
 
   // Pass data to the page via props

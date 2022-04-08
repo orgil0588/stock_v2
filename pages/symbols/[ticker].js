@@ -84,7 +84,7 @@ const StockDetail = ({ data }) => {
 
 export async function getServerSideProps({ params }) {
   const res = await fetch(
-    `http://68.183.176.100/api/v1/trade-history/${params.ticker}`
+    `http://68.183.176.100:8000/api/v1/trade-history/${params.ticker}`
   );
   const data = await res.json();
 

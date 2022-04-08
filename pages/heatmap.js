@@ -8,7 +8,7 @@ const Heatmap = ({ data }) => {
 };
 
 export async function getServerSideProps() {
-  const res = await fetch(`http://68.183.176.100/api/v1/stock-heatmap/`);
+  const res = await fetch(`http://68.183.176.100:8000/api/v1/stock-heatmap/`);
   const data = await res.json();
 
   // Pass data to the page via props
